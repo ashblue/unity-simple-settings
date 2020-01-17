@@ -1,0 +1,16 @@
+{
+    "name": "com.fluid.simple-settings.Tests",
+    "references": [
+        "com.fluid.simple-settings"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

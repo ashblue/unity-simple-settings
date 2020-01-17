@@ -1,0 +1,12 @@
+{
+    "name": "com.fluid.simple-settings.Editor",
+    "references": [
+        "com.fluid.simple-settings"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
