@@ -1,6 +1,31 @@
 # Simple Settings
 
-A micro-framework for creating ScriptableObject settings files
+A micro-framework for creating ScriptableObject settings files that automatically create an automatic copy when initialized. Useful for settings, one time setup, object references and more. Only meant for runtime usage.
+
+## Quickstart
+
+Simply create a settings file and add your data fields after installing the [package](#installation). Please note that under the hood this is just a simple `ScriptableObject` with a light wrapper.
+
+```c#
+[CreateAssetMenu(fileName = "ExampleSettings", menuName = "Fluid/Example Settings")]
+public class ExampleSettings : SettingsBase<ExampleSettings> {
+    public bool myBool;
+}
+```
+
+Now generate your settings menu from the project window and place it in the root of any `Resources` folder. Note the name of the file must match the `*.cs` file.
+ 
+When called at runtime a new instance will automatically be generated of the settings file if it doesn't already exist.
+
+```c#
+public class ExampleSettingsUsage : MonoBehaviour {
+    private void Start () {
+        Debug.Log($"Initial example settings value: {ExampleSettings.Current.myBool}");
+    }
+}
+```
+
+Full working example can be found by cloning this repo and opening `Assets/Example/Example.unity`.
 
 ## Installation
 
