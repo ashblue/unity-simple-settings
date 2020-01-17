@@ -1,0 +1,19 @@
+{
+    "name": "com.fluid.simple-settings.Editor.Tests",
+    "references": [
+        "com.fluid.simple-settings",
+        "com.fluid.simple-settings.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
