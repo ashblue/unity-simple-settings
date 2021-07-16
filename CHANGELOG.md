@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ashblue/unity-simple-settings/compare/v1.0.0...v1.0.1) (2021-07-16)
+
+
+### Bug Fixes
+
+* **asmdef:** warnings no longer fire for empty asmdef folders ([a72700f](https://github.com/ashblue/unity-simple-settings/commit/a72700fe98ed7c559520739a16e3fdc759ee9060)), closes [#11](https://github.com/ashblue/unity-simple-settings/issues/11)
+
 # 1.0.0 (2020-01-17)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "com.fluid.simple-settings",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "unity": "",
   "displayName": "Simple Settings",
   "description": "A micro-framework for creating ScriptableObject settings files",
