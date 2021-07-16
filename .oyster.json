@@ -1,0 +1,23 @@
+{
+  "description": "A micro-framework for creating ScriptableObject settings files",
+  "displayName": "Simple Settings",
+  "keywords": [
+    "unity3d",
+    "upm",
+    "settings",
+    "scriptable object"
+  ],
+  "oysterVersion": "2.1.0",
+  "packageName": "com.fluid.simple-settings",
+  "packageScope": "com.fluid",
+  "unityVersion": "",
+  "author": {
+    "name": "Ash Blue",
+    "email": "ash@clevercrowgames.com",
+    "url": "http://twitter.com/ashbluewd"
+  },
+  "repo": {
+    "gitUrl": "https://github.com/ashblue/unity-simple-settings",
+    "gitUrlNoHttp": "github.com/ashblue/unity-simple-settings"
+  }
+}
